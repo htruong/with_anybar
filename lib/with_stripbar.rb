@@ -1,4 +1,4 @@
-require "with_anybar/version"
+require "with_stripbar/version"
 
 module WithAnybar
   require 'socket'
@@ -11,7 +11,7 @@ module WithAnybar
   end
 
   def self.clear_color
-    change_color("white")
+    change_color("black")
   end
 
   def self.blink(color)
